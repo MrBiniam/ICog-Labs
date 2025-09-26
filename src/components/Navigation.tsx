@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const Navigation = () => {
@@ -42,11 +41,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Image
+            <img
               src="/media/ICogLaps_Logo.jfif"
               alt="iCog Labs Logo"
-              width={40}
-              height={40}
               className="w-8 h-8 lg:w-10 lg:h-10"
             />
             <span className={`font-bold text-xl lg:text-2xl transition-colors duration-300 ${

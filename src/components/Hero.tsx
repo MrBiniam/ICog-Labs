@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 
 const Hero = () => {
@@ -20,13 +19,10 @@ const Hero = () => {
           <div className="relative">
         {/* Simple rotating logo */}
         <div className="relative">
-          <Image
+          <img
             src="/media/ICogLaps_Logo.jfif"
             alt="iCog Labs Logo Background"
-            width={300}
-            height={120}
             className="w-72 h-auto object-contain animate-spin-slow opacity-15"
-            priority
           />
         </div>
           </div>
