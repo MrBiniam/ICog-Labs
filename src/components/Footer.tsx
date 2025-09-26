@@ -81,11 +81,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-3 mb-6">
-              <Image
+              <img
                 src="/media/ICogLaps_Logo.jfif"
                 alt="iCog Labs Logo"
-                width={50}
-                height={50}
                 className="w-10 h-10"
               />
               <span className="font-bold text-2xl">iCog Labs</span>

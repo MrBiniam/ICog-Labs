@@ -65,11 +65,10 @@ const PortfolioSection = () => {
           {articles.map((article, index) => (
             <article key={index} className="bg-gray-50 rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300 group cursor-pointer">
               <div className="relative overflow-hidden h-48">
-                <Image
+                <img
                   src={article.image}
                   alt={article.title}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-orange text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
