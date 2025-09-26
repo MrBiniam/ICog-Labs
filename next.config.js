@@ -4,8 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['localhost', 'i-cog-labs.vercel.app', 'vercel-storage.com'],
-    unoptimized: process.env.NODE_ENV === 'development',
+    domains: ['localhost'],
+    unoptimized: true, // Disable image optimization for production
   },
   // Enable static image optimization for better performance
   output: 'standalone',
